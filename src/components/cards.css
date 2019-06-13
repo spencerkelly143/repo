@@ -1,0 +1,71 @@
+
+#first {
+  z-index: 3;
+}
+#second{
+  z-index: 3;
+}
+#third {
+  z-index: 3;
+  margin-bottom: 3vw;
+}
+#fourth {
+  z-index: 3;
+}
+#fifth {
+  z-index: 3;
+}
+#sixth {
+  z-index: 3;
+  margin-bottom: 3vw
+}
+.card.under{
+  z-index: 2;
+  position: absolute;
+  margin-top: 7.5vh;
+  margin-left: 0.5vh;
+  background: #d44848;
+  text-align: right;
+}
+.card.under.is-length{
+  /* height: 40vh; */
+}
+#under_card_body{
+  margin-left: 40vw;
+}
+.card{
+  margin-top: 7vh;
+  min-height: 20vh;
+  background: #c9575b;
+  color: #ccffff;
+  transition: 1s;
+  width: 80vw;
+}
+.card-header{
+  color: #990033;
+  background-color: #ccffff;
+
+}
+
+.barWrapper {
+  margin-top: 7vh;
+  visibility: hidden;
+}
+.card-text{
+  z-index: 1;
+}
+.hiddenText{
+  z-index: 2;
+}
+/* .card:hover{
+  width: 78vw;
+} */
+.card.is-open{
+  width: 40vw;
+
+}
+
+h1{
+  z-index: 3;
+  color: #ffff;
+}
